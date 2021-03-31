@@ -5,9 +5,9 @@
 class Drawing
 {
 public:
-	int wight_, hight_;
+	int width_, height_;
 	RGBQUAD* Video_memory_;
-	Drawing(int wight, int hight);
+	Drawing(int width, int height);
 
 	void draw_pixel(Vector coords, Vector color_of_point);
 
